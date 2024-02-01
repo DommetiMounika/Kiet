@@ -1,0 +1,26 @@
+.about-container {
+    padding: 20px;
+  }
+  .ht{
+    color: rgba(81, 12, 243, 0.861);
+    font-size: 50px;
+    text-align: center;
+  }
+  .hy{
+    color:rgb(230, 11, 153);
+    font-size: 20px;
+  }
+  .p123{
+    color: #090307;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+  .background{
+    background-color: rgb(118, 204, 232);
+    width: 100vw;
+    height: 125vh;
+  }
+  .mmmmm{
+    width:50vw;
+    height:50vh;
+  }

@@ -1,0 +1,161 @@
+/* Navbar.css */
+
+/* Style for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+.bg{
+    width:500px;
+    height: 500px;
+    align-items: center;
+}
+  
+  /* Style for the logo on the left side */
+  .logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  .polytechnic-text {
+    color: black;
+    font-size: 24px;
+  }
+  
+  /* Style for the navigation links on the right side */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-links a:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ff4500; /* Set the underline color */
+    transition: width 0.5s; /* Add a smooth transition effect for the width */
+  }
+  
+  .nav-links a:hover:after {
+    width: 100%; /* Expand the underline on hover */
+  }
+  
+  /* Style for the mobile menu icon */
+  .menu-icon {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color:rgb(12, 7, 7);
+    margin: 5px 0;
+  }
+  
+  /* Media query for small screens (mobile) */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide on small screens by default */
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #3eafe7;
+    }
+  
+    .nav-links.show {
+      display: flex; /* Show when the menu is open */
+    }
+  
+    .menu-icon {
+      display: block; /* Show on small screens */
+    }
+  }
+  
+  /* Additional Style for the main content container */
+  /* navbar.css */
+  
+  /* Additional Style for the main content container */
+  .main-content {
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px; /* Adjust the padding as needed */
+    position: relative;
+  }
+  
+  /* Style for the "About Polytechnic" section */
+  .main-content h2 {
+    margin-top: -450px; /* Adjust the top margin to move the heading up */
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style for the text color of "Polytechnic" */
+  .main-content p {
+    color: green; /* Set the description text color */
+    font-family: sans-serif;
+  }
+  
+  /* Navbar.css */
+  
+  /* ... (Previous styles remain unchanged) */
+  
+  /* Additional Style for the branches section */
+  /* Navbar.css */
+  
+  /* ... (Previous styles remain unchanged) */
+  
+  /* Additional Style for the branches section */
+  .branch-section {
+    background-color: #333; /* Adjust the background color as needed */
+    color: white;
+    padding: 20px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Adjust the margin to create space between sections */
+  }
+  
+  /* Style for the container holding branch containers */
+  .branch-container-wrapper {
+    display: flex;
+    justify-content: space-around; /* Adjust the spacing between containers */
+  }
+  
+  /* Style for the individual branch containers */
+  .branch-container {
+    flex: 1; /* Distribute containers equally */
+    margin: 0 10px; /* Adjust the margin to create space between containers */
+    padding-top: 50px;
+    border: 1px solid white;
+  }
+  
+  .branch-container h3 {
+    font-size: 60px; /* Increase the font size for larger heading */
+  }
+  
+  .branch-container p {
+    font-size: 14px; /* Increase the font size for larger text */
+  }
+  
+  /* ... (Other styles remain unchanged) */

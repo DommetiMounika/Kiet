@@ -1,0 +1,32 @@
+.vd {
+    margin-top: 20px;
+    text-align: center; /* Center the content horizontally */
+}
+
+/* Make the video responsive and fill the container */
+.vd video {
+    width: 40vw; /* Adjust the width as needed */
+    height: 40vh; /* Allow the height to adjust proportionally based on the width */
+    display: block; /* Center the video within its container */
+    margin: 0 auto; /* Center the video horizontally */
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.main-heading {
+    font-family: 'Arial', sans-serif;
+    color: #2f10f8;
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+.main-heading span {
+    color: #ff6600;
+    font-weight: bold;
+}
+.backgr{
+    color: pink;
+
+}

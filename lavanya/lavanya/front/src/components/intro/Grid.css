@@ -1,0 +1,98 @@
+/* Grid.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allow the row to wrap on smaller screens */
+  justify-content: space-around;
+  align-items: stretch; /* Align items to stretch to the same height */
+  gap: 20px; /* Add gap between columns */
+}
+
+.col-md-4 {
+  flex: 1 1 30%; /* Allow columns to grow and shrink */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  height: 100%; /* Make cards take the full height of the parent */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.count-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.count-animations {
+  font-size: 1.5em;
+  color: #f013b5; /* Change the color as desired */
+  font-weight: bold;
+  animation: fadeIn 1s ease-out; /* Add a fadeIn animation */
+}
+
+.count-animation {
+  font-size: 50px;
+  color: #54c0d5; /* Change the color as desired */
+  font-weight: bolder;
+  animation: fadeIn 1s ease-out; /* Add a fadeIn animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

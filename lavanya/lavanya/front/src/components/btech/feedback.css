@@ -1,0 +1,48 @@
+/* feedback.css */
+
+.feedback {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .feedback form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback label {
+    margin-bottom: 10px;
+  }
+  
+  .feedback input,
+  .feedback select,
+  .feedback textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .feedback button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feedback button:hover {
+    background-color: #45a049;
+  }
+  

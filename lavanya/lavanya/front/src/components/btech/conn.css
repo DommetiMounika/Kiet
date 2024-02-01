@@ -1,0 +1,33 @@
+.background-image {
+ /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin-top: -20px; /* Adjust margin to align with the navbar */
+  }
+  .i9{
+    width:40vw;
+    height:40vh;
+  }
+  .soni{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-align: center;
+  }
+  .lav{
+    font-size: 30px;
+    color: black;
+  }
+  /* Add other global styles as needed */
+  .Branch-box {
+    border: 1px solid #ccc; /* Add border styling */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center text within the box */
+  }
+  
+  .Branch-container {
+    margin-top: 10px; /* Add margin between the branch names */
+  }
+  
